@@ -18,7 +18,7 @@ import pandas as pd
 pd.set_option('display.max_columns', None)
 import numpy as np
 
-df = pd.read_csv("Dataset.csv")
+df = pd.read_csv("./dataset.csv")
 (df.head())
 
 # from google.colab import drive
